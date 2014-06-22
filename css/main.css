@@ -1,0 +1,373 @@
+/* ==========================================================================
+   Base styles.
+   ========================================================================== */
+html,
+button,
+input,
+select,
+textarea {
+    color: #DFEDFF;
+}
+
+/* Remove text-shadow in selection highlight; customize the background color to match your design. */
+::-moz-selection {
+    background: #e74c3c;
+    text-shadow: none;
+}
+
+::selection {
+    background: #e74c3c;
+    text-shadow: none;
+}
+
+/* Remove the gap between images, videos, audio and canvas and the bottom of their containers. */
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/* Allow only vertical resizing of textareas. */
+textarea {
+    resize: vertical;
+}
+
+
+/* ==========================================================================
+   Global styles.
+   ========================================================================== */
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #2980b9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Damion', cursive;
+}
+
+h2 {
+  font-size: 2.750em;
+  margin: 0.625em 0 0 0;
+  text-align: center;
+  color: #f1c40f;
+  text-shadow: 3px 3px 0px rgba(150, 150, 150, 1);
+}
+
+h3 {
+  font-size: 1.875em;
+  margin: 1.250em 0;
+}
+
+p {
+  margin: 0.313em 0;  
+}
+
+a {
+  color: #34495e; 
+  text-decoration: none; 
+}
+
+a:visited {
+  color: #34495e;
+}
+
+a:hover {
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  text-decoration: underline;
+}
+
+/* Responsive image*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#quickExample, #methods, #gettingStarted {
+  margin-bottom: 50px;
+}
+
+
+/* ==========================================================================
+   Header styles.
+   ========================================================================== */
+header {
+    height: 100%;
+}
+
+.addGithub {
+  margin-left: 30px;
+  position: absolute;
+  bottom: 50px;
+}
+
+.shareGrid {
+  position: absolute;
+  bottom: 0;
+}
+
+.mainNav {
+    height: 65px;
+}
+
+.linkButtons {
+  margin-top: 50px;
+}
+
+.linkButton {
+  display: block;
+  height: 50px;
+  margin: 10px auto;
+  border: 1px solid #8BBBF3;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 49px;
+  text-decoration: none;
+  color: #8BBBF3;
+}
+
+.linkButton:visited {
+  color: #8BBBF3;
+}
+
+.linkButton:hover {
+  color: #FFF;
+  border-color: #FFF;
+  text-decoration: none;
+}
+
+.linkButton:active {
+  color: #FFF;
+  border-color: #FFF;
+}
+
+.logo {
+  max-height: 180px;
+  display: block;
+  margin: 1.875em auto 0;
+}
+
+.headerLogo {
+  display: none;
+}
+
+/* Navigation West.js */
+.trigger {
+  position:absolute;
+  right:-65px;
+  top:0;
+  background:transparent;
+  padding:15px 20px 15px 20px;
+  color:#fff;
+  border:0;
+  font-size:2em;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.toggleBtn {
+  width:80%;
+  height:4px;
+  background:#fff;
+  display: block;
+}
+
+.navWrap {
+  position:fixed;
+  z-index: 999;
+  left:0;
+  top:0;
+  height:100%;
+  width:250px;
+  background:#222;
+  padding:10px 0px 0px 0px;
+  margin-left:-250px;
+  font-family: "Montserrat", Arial, Helvetica, Helvetica Neue;
+  font-size: 14px;
+  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+}
+
+.open {
+  margin-left:0px;
+}
+
+.mainList {
+  padding: 0;
+}
+
+.mainList a, .mainList a:visited {
+  display:block;
+  padding:20px 20px 20px 30px;
+  color:#bbb;
+  text-decoration: none;
+  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.mainList a:hover {
+  color:#fff;
+  text-decoration: none;
+  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+
+/* ==========================================================================
+   Quick Example styles.
+   ========================================================================== */
+.codeBlock {
+  margin-top: 25px;
+}
+
+.exampleUnit p {
+background: #2574A9;
+height: 35px;
+border-radius: 3px;
+text-align: center;
+padding: 7px 0;
+}
+
+
+/* ==========================================================================
+   Methods styles.
+   ========================================================================== */
+#methods table {
+  border: 2px solid #2574A9;
+  margin-bottom: .5em;
+}
+
+#methods th {
+  font-weight: 600;
+  padding: 1em 0;
+  border-bottom: 2px solid #2574A9;
+  border-left: 2px solid #2574A9;
+  min-height: 60px;
+}
+
+#methods th:first-child {
+  height: 55px;
+  border-left: none;
+}
+
+#methods tbody tr {
+  border-top: 2px solid #2574A9;
+}
+
+#methods tbody tr:first-child {
+  border-top: none;
+}
+
+#methods td {
+  text-align: center;
+  border-left: 2px solid #2574A9;
+  min-height: 44px;
+}
+
+#methods td:first-child {
+  text-align: left;
+  border-left: none;
+}
+
+
+/* ==========================================================================
+   Getting Started styles.
+   ========================================================================== */
+#gettingStarted .codeBlock {
+  margin: 0 0 25px 0;
+}
+
+.steps {
+  margin: 15px 0 0 0;  
+}
+
+
+/* ==========================================================================
+   Footer styles.
+   ========================================================================== */
+footer{
+  background: #2574A9;
+}
+
+footer p {
+  text-align: center;
+}
+
+.heart {
+  color: #e74c3c;
+}
+
+
+/* ==========================================================================
+   Media Queries.
+   ========================================================================== */
+/* Grid Small [min-width:481px]. */
+@media only screen and (min-width: 30.063em){
+  h1 {
+    margin: 0.313em 0;
+  }
+
+}
+
+
+/* Grid Medium [min-width:769px]. */
+@media only screen and (min-width: 48.063em){
+  h1 {
+    text-align: left;
+    font-size: 2.2em;
+  }
+
+  .headerLogo {
+    display: block;
+  }
+
+  #methods td {
+    padding: 0.7em;
+  }
+
+}
+
+
+/* Grid Large [min-width:1025px]. */
+@media only screen and (min-width: 64.063em){
+  h1 {
+    font-size: 3em;
+  }
+
+  #quickExample .codeBlock {
+    margin-top: 0;
+  }
+
+  #quickExample h2 + p {
+  margin-top: 20px;
+  }
+
+}
+
+
+/* Grid Huge [min-width:1441px]. */
+@media only screen and (min-width: 90.063em){}
