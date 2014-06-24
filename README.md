@@ -1,6 +1,6 @@
 # Initial Grid [Beta Version]
 
-A simple but powerful 12 column responsive grid system written in pure CSS. It has clearly structured code to increase the readability, that makes it very easy to conigure the code. It's build with mobile first design in mind and has 5 breakpoints. The grid works on IE9+ and all modern browsers. Download a polyfill for IE8 support.
+A simple but powerful 12 column responsive grid system written in pure CSS. It has clearly structured code to increase the readability, that makes it very easy to conigure the code. It's build with mobile first design in mind and has 5 breakpoints. The grid works on IE9+ and all modern browsers. Download a [polyfill](https://github.com/scottjehl/Respond "Respond.js") for IE8 support.
 
 ## Quick Example
 This example shows how easy it is to create a responsive lay-out with the grid for mutiple devices. The class names are kept as short as possible, which makes them easier to read comparing to other grids. Especially when you're dealing with a lot of markup.
