@@ -57,3 +57,6 @@ Step 3: Minify your customized grid and add it in your HTML head. Start building
 <link rel="stylesheet" href="css/initial.min.css"> <!--the initial grid system.-->
 <link rel="stylesheet" href="css/main.css"> <!--your custom css styles.-->
 ```
+
+## Support
+You can post a comment at the bottom of the [docs website](http://jordypouw.github.io/initial-gs/ "Initial Grid") and i'll answer your question as soon as possible. 
