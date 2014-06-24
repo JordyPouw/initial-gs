@@ -7,9 +7,9 @@ This example shows how easy it is to create a responsive lay-out with the grid f
 
 ```html
 <section class="box">
-  <div class="t12 m4"> t12  m4 </div>  
-  <div class="t6 m4">  t6   m4 </div>  
-  <div class="t6 m4">  t6   m4 </div>  
+  <div class="t12 m4">Content</div>  
+  <div class="t6 m4">Content</div>  
+  <div class="t6 m4">Content</div>  
 </section>
 ```
 
