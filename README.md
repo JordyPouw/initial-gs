@@ -23,7 +23,7 @@ This example shows how easy it is to create a responsive lay-out with the grid f
 | Offset       	| .to1 - 12 	| .so1 - 12 	| .mo1 - 12 	| .lo1 - 12 	| .ho1 - 12 	|
 | Box          	|    .box   	            	            	            	            	|
 
-Note: there is also the possibility to reset the forward, backward and offset methods. This can be done by adding -r to the method. As example if you have an offset on your medium breakpoint of .mo4 and you want to reset it on your large breakpoint, simply add .lo-r as a class name.
+*Note: there is also the possibility to reset the forward, backward and offset methods. This can be done by adding -r to the method. As example if you have an offset on your medium breakpoint of .mo4 and you want to reset it on your large breakpoint, simply add .lo-r as a class name.*
 
 ## Getting Started
 First download the .zip at the top of the page or fork it on Github. After you download it just open the file and easily configure the code. If you want to use the grid immediately, just skip these steps and add the minified version in your HTML head.
