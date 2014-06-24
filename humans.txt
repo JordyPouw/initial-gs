@@ -1,0 +1,17 @@
+# TEAM
+
+    Jordy Pouw -- Frontend Developer -- https://plus.google.com/+jordypouw/
+
+# THANKS
+		
+	Lea Verou -- [prism.js]
+
+
+# TECHNOLOGY
+
+    HTML5 Boilerplate
+    Normalize.css 
+    Initial.css
+    jQuery 
+    Modernizr
+    prism.js --	[https://github.com/LeaVerou/prism]
