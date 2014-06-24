@@ -561,9 +561,6 @@ header {
   margin-right: auto;
 }
 
-.l5.centered {
-  padding-left: 45px;
-}
 
 /* ==========================================================================
    Quick Example styles.
@@ -668,6 +665,10 @@ footer p {
 
 /* Grid Large [min-width:1025px]. */
 @media only screen and (min-width: 64.063em){
+  .centered {
+  padding-left: 45px;
+  }
+
   .quickExample .codeBlock {
     margin-top: 0;
   }
