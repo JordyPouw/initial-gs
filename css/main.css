@@ -464,8 +464,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Damion', cursive;
   font-size: 2.750em;
   text-align: center;
-  color: #f1c40f;
-  text-shadow: 3px 3px 0px rgba(150, 150, 150, 1);
+  color: #DFEDFF;
+  text-shadow: 3px 3px 0px rgba(11, 103, 175, 1);
 }
 
 p {
