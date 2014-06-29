@@ -53,10 +53,9 @@ Step 2: Change the padding(15px) to your desired value.
 
 Step 3: Minify your customized grid and add it in your HTML head. Start building!
 ```html
-<link rel="stylesheet" href="css/normalize.css"> <!--provides better cross-browser consistency in the default styling of HTML elements.-->
 <link rel="stylesheet" href="css/initial.min.css"> <!--the initial grid system.-->
 <link rel="stylesheet" href="css/main.css"> <!--your custom css styles.-->
 ```
 
 ## Support
-You can post a comment at the bottom of the [docs website](http://jordypouw.github.io/initial-gs/ "Initial Grid") and i'll answer your question as soon as possible. 
+You can post a comment at the bottom of the [docs page](http://jordypouw.github.io/initial-gs/ "Initial Grid") and i'll answer your question as soon as possible. 
