@@ -1,4 +1,4 @@
-# Update coming around January 2015. This grid isn't that good (the class names) I think it's useful for quick prototyping, because of the simple class names but not for production.
+#Currently working on splinter.scss, a reponsive grid that's much easier to customize: check out [splinter](https://github.com/JordyPouw/splinter "Cowabunga!").
 -----
 # Initial Grid
 
